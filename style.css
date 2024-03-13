@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    min-height: 100vh;
+    background-color: aquamarine;
+}
+.homesection{
+    display: flex;
+}
+.container{
+    padding: 0 40px;
+    width: 80%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.home-text h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.home-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.home-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.home-text,
+.home-img{
+    width: 50%;
+    padding: 25px;
+    height: 190%;
+}
+.about{
+    text-align: center;
+    color: black;
+    padding: 40px;
+}
+.about h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding: 15px;
+}
+.about p{
+    padding: 10px;
+    font-style: oblique;
+}
+.skills{
+    color: black;
+    padding: 15px;
+    font-size: 15px;
+
+}
+.skills h2{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-line: underline;
+    
+}
+.skills ol{
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+
+}
+.form{
+    color: black;
+    padding: 20px;
+    text-align: right;
+}
+.text{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
